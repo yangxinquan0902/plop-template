@@ -1,0 +1,17 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "g": "node createDir && plop --plopfile generators/cli/index.js",
+    "g:view": "plop --plopfile generators/cli/view.js",
+    "g:api": "plop --plopfile generators/cli/api.js",
+    "g:comp": "plop --plopfile generators/cli/component.js",
+    "g:vuex": "plop --plopfile generators/cli/vuex.js",
+    "g:webpack": "plop --plopfile generators/cli/webpack.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

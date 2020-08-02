@@ -1,0 +1,13 @@
+const {{ properCase name }} = () => import(/* webpackChunkName: "{{kebabCase name}}" */ '../../views/{{ properCase name }}/index.vue');
+
+
+const Router = {
+    path: `/{{ kebabCase name }}`,
+    name: {{ properCase name }},
+    component: {{ properCase name }},
+    meta: {
+      title: '',
+    }
+};
+
+export default Router;
